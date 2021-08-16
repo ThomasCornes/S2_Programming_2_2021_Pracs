@@ -12,6 +12,10 @@ def initial_version():
 
     print('*' * len(password))
 
+def main():
+    """Get and print password using functions."""
+    password = get_passcode(MIN_LENGTH)
+    print_asterisks(password)
 
 # Initial_version()
 
@@ -22,3 +26,7 @@ def get_passcode():
         passcode = input("Enter passcode of at least {} Characters").format(MIN_LENGTH)
     return passcode
 
+def print_asterisks (Passcode_length):
+    print('*' * len(Passcode_length))
+
+main()
