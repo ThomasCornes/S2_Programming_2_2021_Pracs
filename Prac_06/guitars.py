@@ -29,4 +29,5 @@ def main():
         print("No guitars :( Quick, go and buy one!")
 
 
-main()
+if __name__ == '__main__':
+    run_tests()
